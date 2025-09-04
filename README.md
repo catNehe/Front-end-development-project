@@ -1,1 +1,10 @@
-# Front-end-development-project
+{
+	"folders": [
+		{
+			"path": "NewpaperProject/YourFamilyNameNewspaperProject,"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "YourFamilyNameNewspaperProject,"
+	}
+}
