@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web News Article</title>
+</head>
+<body>
+    <header>
+        <h1>Web News</h1>
+        <nav>
+            <div class="slide-drawer">=</div>
+            <ul>
+                <li><a href="LandingPage.html">Landing Page</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="article-header">
+            <h2>Indian forests where white tigers can be spotted</h2>
+            <p>Author: Priya Srivastave</p>
+            <p>Date: Jun 16, 2024, 12:00 PM</p>
+        </section>
+        <section class="article-layout">
+            <section class="Article-Content">
+                <h2>5 Indian forests where white tigers can be spotted</h2>
+                <img src="rendy-novantino-hWv53J7yIP4-unsplash.jpg" alt="Image of a woman holding a newspaper."
+                                    width="30%" height="10%" class="article-image" />
+                                <p>White tigers are an interesting species that
+                                have been capturing the
+                                imagination of wildlife enthusiasts since ages now. These
+                                magnificent creatures are rarely seen in the wild and are primarily
+                                found in zoos across India.But imagine experiencing white tigers in
+                                their natural habitat, walking handsomely and freely in the Indian
+                                jungles! Sounds interesting, right? Well, but there are very few
+                places in India, where there are chances of spotting the white
+                tigers. Though it’s an unproposed journey that many wildlife
+                enthusiasts embark on, who knows when we get lucky enough? For those
+                who don’t know, white tigers are often referred to as bleached
+                tigers. They exhibit a stunning white appearance attributed to a
+                lack of yellow and orange pigments, resulting in a light coloration.
+                Also, India is the world's first country to introduce the white
+                tiger safari in Madly Pradesh. Apart from Mashy Pradesh, there are
+                just four more locations in India where one can catch a glimpse of
+                these handsome animals. Have a look: Bandhavgarh National Park is
+                famous for its population of Bengal tigers, including the elusive
+                white tigers. Once upon a time, the forests of Bandhavgarh used to
+                be home of these majestic creatures. Having once served as hunting
+                grounds for the Maharajas of Rewa, the jungle was later designated
+                as a Tiger Reserve in 1993. Visitors can enjoy jeep safaris to
+                explore the park and increase their chances of encountering a white
+                tiger in the wild. The lush greenery of the Nilgiri Hills in Tamil
+                Nadu offers a perfect backdrop for wildlife enthusiasts seeking to
+                spot white tigers. While not as common as in other regions,
+                sightings of white tigers have been reported in the forests of the
+                Nilgiri. Ranthambore National Park in Rajasthan is noted for its
+                population of Bengal tigers, including the occasional sighting of
+                white tigers. The park's rugged terrain, dotted with ancient ruins
+                and scenic landscapes, offers a unique setting for wildlife safaris.
+                Kananga is all about its population of Indian rhinoceroses,
+                Kananga National Park in Assam is also home to a diverse range of
+                wildlife, including white tigers. Visitors can go on jeep safaris or
+                elephant rides to explore the park's different zones and catch sight
+                of a white tiger roaming around. Sundarbans is the world's largest
+                mangrove forest! It is famous for its Royal Bengal tigers, including
+                the occasional sighting of white tigers. Cruising through the
+                network of creeks and channels, visitors can witness the unique
+                ecosystem of the Sundarbans while keeping an eye out for these rare
+                and elusive predators.
+                </p>
+            </section>
+            <section class="sidebar">
+                <h3>Subscribe to our newsletter</h3>
+
+                <p>
+                    Subscribe to our newsletter to receive the latest news and updates.
+                </p>
+                <p>Subscribe now!</p>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
