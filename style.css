@@ -1,0 +1,247 @@
+*/ Element selectors*/ * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px;
+}
+
+body {
+  font-family: 'Rasa', sans-serif;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background-color: #C2F2F2;
+  box-decoration-break: clone;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+nav a {
+  color: #00e8b2;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a:active {
+  color: #000;
+}
+
+nav a:visited {
+  color: #000;
+}
+
+nav a:link {
+  color: #000;
+  /* semi-colon expected */
+}
+
+/*Media Queries!*/
+@media (max-width: 768px) {
+  /*This says, ask the media if the screen is 768 pixels wide, or less*/ 
+  .slide-drawer {
+    display: block;
+    /*If it is 768px or less, then display the slide drawer!*/
+  }
+
+  nav ul {
+    flex-direction: column;
+    /*Also change the flex layout*/
+    display: none;
+    /*And turn off the wider nav bar item display*/
+  }
+
+  nav ul.active {
+    /*And this part says, when you click on that slide drawer*/
+    display: flex;
+    /*Then display those nav bar items again.*/
+  }
+}
+
+/* This is a CSS file for the landing page of a web news site */
+main {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #000;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Use .article-layout for class or define <article-layout> as a custom element in HTML */
+.article-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.Article-Content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50PX /* This is a placeholder for the gap, adjust as needed */;
+  padding: 20px;
+
+}
+
+.article-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  width: 100%;
+  padding: 20px;
+  font-size: medium;
+}
+
+.article-content {
+  display: flex;
+}
+
+/* Use .sidebar for class or define <sidebar> as a custom element in HTML */
+.sidebar {
+  flex: 1;
+  padding: 20px;
+}
+
+.article-content,
+.sidebar {
+  min-height: 200px;
+  padding: 20px;
+  background-color: rgb(81, 36, 67);
+  bottom: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 248, 248, 0.1);
+}
+
+/* Use .main-landing-page for class or define <main-landing-page> as a custom element in HTML */
+.main-landing-page {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 20px;
+}  
+
+article-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  padding: 20px;
+  font-size: medium;
+}
+
+/*Gallery Class Selectors*/
+.gallery-body, .gallery-html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.photo {
+  display: none;
+  overflow: hidden;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+gallery-controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
+
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.35;
+}
+
+button:hover {
+  background-color: #521616;
+}
+/*Begin Responsive Nav Bar*/
+ 
+nav {
+    display: flex;
+    justify-content: center;
+    padding:10px 0;
+}
+ 
+nav ul {
+    display:flex;
+    list-style: none;
+    gap: 20px;
+}
+
+/*End Responsive Nav Bar*/
+
+/*Begin Slide Drawer Style*/
+
+.slide-drawer{
+    display: none;
+    cursor: pointer;
+}
+
+/*End Slide Drawer Style*/
+
+/*Media Queries!*/
+@media (max-width: 768px){ /*This says, ask the media if the screen is 768 pixels wide, or less*/
+    .slide-drawer{
+        display: block; /*If it is 768px or less, then display the slide drawer!*/
+    }
+
+    nav ul {
+        flex-direction: column; /*Also change the flex layout*/
+        display: none; /*And turn off the wider nav bar item display*/
+    }
+
+    nav ul.active{ /*And this part says, when you click on that slide drawer*/
+        display: flex; /*Then display those nav bar items again.*/
+    }
+}
+/*End Gallery Class Selectors*/
